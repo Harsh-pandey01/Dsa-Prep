@@ -8,7 +8,7 @@ vector<vector<int>> pairSum(vector<int> arr, int target)
     int start = 0, end = arr.size() - 1;
     sort(arr.begin(), arr.end());
     vector<vector<int>> ans;
-    while (start <= end)
+    while (start < end)
     {
         if (arr[start] + arr[end] == target)
         {
