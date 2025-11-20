@@ -1,4 +1,3 @@
-//  We are given a number and we have to find the number of zeros in the last of factorial of n ;
 
 #include <bits/stdc++.h>
 using namespace std;
